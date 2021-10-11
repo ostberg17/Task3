@@ -1,0 +1,26 @@
+#heros {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-element {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.hero-element img {
+  width: 150px;
+}
+
+.hero-details {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.red {
+    color: red;
+}
